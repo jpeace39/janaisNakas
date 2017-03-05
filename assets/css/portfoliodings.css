@@ -1,0 +1,161 @@
+/* { box-sizing: border-box; }*/
+.works{
+  position: absolute;
+  max-width: 1500px;
+  right: 0px;
+  margin-left: 4%;
+  padding-top: 20px;
+  font-family: "HK","PT Sans Narrow",sans-serif;
+}
+
+
+.works > div {
+    background: none repeat scroll 0 0 #fff;
+    /*border: 1px solid rgba(55,55,55, 1);*/
+    /*box-shadow: 0 0 4px -2px #000;*/
+    color: #666;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+    height: 300px;
+    width: 400px;
+}
+.works img {
+    width: 100%;
+    z-index: 0;
+    transition: transform 0.3s ease 0s;
+    display:block;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+
+}
+
+/*THe bElOW CODE IS FOR SPECIFIC IMAGES*/
+/*THe bElOW CODE IS FOR SPECIFIC IMAGES*/
+/*THe bElOW CODE IS FOR SPECIFIC IMAGES*/
+.works .someidysa img {
+    width: 180%;
+    margin-left: -8%;
+    margin-top: -40px;
+    z-index: 0;
+    transition: transform 0.3s ease 0s;
+    display:block;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+
+}
+
+.works .someidsoftz img {
+    width: 100%;
+    margin-top: -135px;
+    z-index: 0;
+    transition: transform 0.3s ease 0s;
+    display:block;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+
+}
+.works .someidandrew img {
+    width: 300%;
+    margin-top: -98%;
+    margin-left: -200%;
+    z-index: 0;
+    transition: transform 0.3s ease 0s;
+    display:block;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+
+}
+
+
+.works .someidmichi img {
+    width: 140%;
+    margin-top: 0px;
+    margin-left: -35%;
+    z-index: 0;
+    transition: transform 0.3s ease 0s;
+    display:block;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+
+}
+.works .someidashley img {
+    width: 100%;
+    z-index: 0;
+    transition: transform 0.3s ease 0s;
+    display:block;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+
+}
+.works .someidmarianne img {
+    width: 100%;
+    margin-top: -50%;
+    z-index: 0;
+    transition: transform 0.3s ease 0s;
+    display:block;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+
+}
+
+/*THe ABOVE CODE IS FOR SPECIFIC IMAGES*/
+/*THe ABOVE CODE IS FOR SPECIFIC IMAGES*/
+/*THe ABOVE CODE IS FOR SPECIFIC IMAGES*/
+
+
+.works > div:hover img {
+  /*  transform: translateX(-20%); /*take this ish out*/
+}
+.works > div .caption {
+  color: rgba(225,225,225,1); /*font color*/
+    background: none repeat scroll 0 0 rgba(70,70,70,.9);
+    box-shadow: -2px 0 4px -2px #000;
+    display: inline-block;
+    font-size: 18px;
+    bottom: -195%;
+    line-height: 1.3;
+    min-height: 105%;
+    overflow: hidden;
+    padding: 3% 20px;
+    position: absolute;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+}
+.works > div:hover .caption {
+    background-clip: padding-box;
+    transform: translateY(-165%);
+
+}
+.works > div a{
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:80px;
+  padding: 12px;
+  margin:auto;
+  line-height:35px;
+  height:35px;
+  display:inline-block;
+  text-decoration:none;
+  color:#edf6fa;
+  background-color:rgba(66,134,244,1);
+  border-radius:0px;
+  text-transform:uppercase;
+  text-align:center;
+  font-size: 1em;
+  transition:all 0.3s;
+}
+.works > div a:hover{
+  background-color:rgba(37,102,206,1);
+
+}
+
+
+.caption h1 {
+  font-size: 20px;
+}
+
+.caption p {
+  margin-top: -20px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
